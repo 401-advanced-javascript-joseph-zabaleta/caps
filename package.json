@@ -1,0 +1,26 @@
+{
+  "name": "week-04-caps",
+  "version": "1.0.0",
+  "description": "Code Academy Parcel Service(CAPS)",
+  "main": "hub.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "watch": "jest --watchAll --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "joseph-zabaleta",
+  "license": "ISC",
+  "devDependencies": {
+    "@code-fellows/supergoose": "^1.0.11",
+    "faker": "^5.1.0",
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "events": "^3.2.0"
+  }
+}
