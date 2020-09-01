@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hub.js",
+  "scripts": {
+    "start": "node hub.js"
+  },
+  "keywords": [],
+  "author": "joseph-zabaleta",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "net": "^1.0.2",
+    "uuid": "^8.3.0"
+  }
+}

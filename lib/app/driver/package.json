@@ -1,0 +1,15 @@
+{
+  "name": "driver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "driver.js",
+  "scripts": {
+    "start": "node driver.js"
+  },
+  "keywords": [],
+  "author": "joseph-zabaleta",
+  "license": "ISC",
+  "dependencies": {
+    "net": "^1.0.2"
+  }
+}

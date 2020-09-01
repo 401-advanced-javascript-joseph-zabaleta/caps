@@ -1,5 +1,5 @@
-const driver = require('../lib/app/driver.js');
-const emitter = require('../lib/events.js');
+const driver = require('../lib/app/driver/driver.js');
+const emitter = require('../OLD/events.js');
 
 jest.useFakeTimers();
 
