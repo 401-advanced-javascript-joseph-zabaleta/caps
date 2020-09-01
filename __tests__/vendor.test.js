@@ -24,10 +24,9 @@ describe('Testing the Vendor: ', () => {
 
       vendor.start();
 
-    //   jest.runOnlyPendingTimers();
-      jest.advanceTimersByTime(5000);
+      jest.runOnlyPendingTimers();
 
-      expect(callback).toBeCalledWith(expect.objectContaining({store:'Joseph\'s Electronics'}));
+      expect(callback).toBeCalledWith(expect.objectContaining({storeName:'Joseph\'s Electronics'}));
 
       expect(callback).toHaveBeenCalledTimes(1);
 
