@@ -3,7 +3,8 @@
 /** Local */
 const events = require('./lib/events.js');
 require('./lib/app/driver/driver.js');
-require('./lib/app/vender/vendor.js');
+const vendor = require('./lib/app/vender/vendor.js');
+vendor.start();
 
 events.on('order-ready', payload => logger('order-ready', payload));
 events.on('in-transit', payload => logger('in-transit', payload));
