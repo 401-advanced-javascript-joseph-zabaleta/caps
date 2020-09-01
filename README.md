@@ -41,10 +41,22 @@ Current Phase: 2
 
 ## Installation
 - Clone down a copy of the repository.
-- First step is to run `npm install` to receive all the dependencies
-- To start this server the following commands are supported:
-    - `npm start`
-    - `node hub.js`
+- There are three parts to this application now.
+- `Server`
+    - Inside the `lib/server/` run `npm install`
+    - Followed by `npm start`
+    - This will start the hub for all subscribers
+- `Vendor`
+    - Inside the `lib/app/vendor/` run `npm install`
+    - Followed by `npm start`
+    - This will start the vendor app which will start producting orders for pickup
+- `Driver`
+    - Inside the `lib/app/driver/` run `npm install`
+    - Followed by `npm start`
+    - This will start the driver app which will pickup and deliver orders.
+
+NOTE: Each part must be running in its own terminal.
+
 
 ## Author
 - Software Developer: Joseph Zabaleta

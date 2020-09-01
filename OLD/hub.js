@@ -1,9 +1,9 @@
 'use strict';
 
 /** Local */
-const events = require('./lib/events.js');
-require('./lib/app/driver/driver.js');
-const vendor = require('./lib/app/vender/vendor.js');
+const events = require('./events.js');
+require('../lib/app/driver/driver.js');
+const vendor = require('../lib/app/vender/vendor.js');
 vendor.start();
 
 events.on('order-ready', payload => logger('order-ready', payload));
