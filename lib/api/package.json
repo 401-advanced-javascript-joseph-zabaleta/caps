@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API Express Server",
+  "main": "caps-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node caps-api.js"
+  },
+  "author": "joseph-zabaleta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io-client": "^2.3.0"
+  }
+}
