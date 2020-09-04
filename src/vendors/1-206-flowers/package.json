@@ -1,0 +1,17 @@
+{
+  "name": "1-206-flowers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vendor.js",
+  "scripts": {
+    "start": "node vendor.js"
+  },
+  "keywords": [],
+  "author": "joseph-zabaleta",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "faker": "^5.1.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
