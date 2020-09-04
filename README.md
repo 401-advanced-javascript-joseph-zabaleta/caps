@@ -19,7 +19,7 @@ A real-time service that allows for vendors, such as flower shops or restaurants
 
 
 ## Development Process
-Current Phase: 2
+Current Phase: 4
 
 #### Phase 1: Event Driven Applications
 - Using built-in Node.js events to simulate realtime package delivery changes

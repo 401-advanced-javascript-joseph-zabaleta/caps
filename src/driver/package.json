@@ -1,18 +1,15 @@
 {
-  "name": "server",
+  "name": "driver",
   "version": "1.0.0",
   "description": "",
-  "main": "hub.js",
+  "main": "driver.js",
   "scripts": {
-    "start": "node hub.js"
+    "start": "node driver.js"
   },
   "keywords": [],
   "author": "joseph-zabaleta",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "net": "^1.0.2",
-    "socket.io": "^2.3.0",
-    "uuid": "^8.3.0"
+    "socket.io-client": "^2.3.0"
   }
 }
